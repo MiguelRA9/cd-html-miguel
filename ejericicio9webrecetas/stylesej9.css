@@ -1,0 +1,49 @@
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightgoldenrodyellow;
+    color: lightslategrey;
+    text-align: center;
+  }
+  a:link {
+    color:lightblue;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:visited {
+    color:cadetblue;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  body {
+    background-color: lightgoldenrodyellow;
+    color:antiquewhite;
+    text-align: left;
+    background-image: url("https://img.freepik.com/free-photo/vegetables-set-left-black-slate_1220-685.jpg?w=1480&t=st=1696934652~exp=1696935252~hmac=f6c5a1e9fb18d708de570f1259375e38918eee7b1312c06c47ddd11c942db024");
+    background-size: contain;
+  }
+
+  table td {
+    padding: 15px;
+  }
+  table thead th {
+    background-color: #54585d;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 13px;
+    border: 1px solid #54585d;
+  }
+  table tbody td {
+    color: #636363;
+    border: 1px solid #dddfe1;
+  }
+  table tbody tr {
+    background-color: #f9fafb;
+  }
+  table tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+  }
