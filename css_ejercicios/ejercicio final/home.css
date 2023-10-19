@@ -51,14 +51,20 @@ main h3 {
 }
 
 #takeaway_container{
-    display: inline-block;
-    align-items: center;
-    margin-left: 50%;
+}
+
+#takeaway_container a img{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 25px;
+
 }
 
 #takeaway_container a {
     text-decoration: none;
     font-weight: bold;
+    font-size: 1.5em;
     color: rgb(135, 15, 15);
     font-family: Arial, Helvetica, sans-serif;
 }
