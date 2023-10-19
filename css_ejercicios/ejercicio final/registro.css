@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    background-image: url(background_register.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#contenedor {
+    position: fixed;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    height: 500px; 
+    border-radius: 5px;   
+    color: black;
+    background-color: rgb(185, 127, 127);
+    padding: 20px;
+}
+
+div .container_section input {
+    height: 25px;
+    color: gray;
+    background-color: lightgray;
+    margin-bottom: 20px;
+    border-style: none;
+}
+
+div #direccion_container input{
+    height: 25px;
+    color: gray;
+    background-color: lightgray;
+    margin-bottom: 20px;
+    border-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#provincia, #pais{
+    font-weight: bold;
+    height: 25px;
+    color: black;
+    background-color: lightgray;
+    border-style: none;
+}
+
+button {
+    background-color: rgb(49, 48, 48);
+    color: lightgray;
+    padding: 15px;
+    width: 250px;
+    height: 50px;
+    border-radius: 2px;
+    border-style: none;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/* Aplica los media queries a partir de aquí */
+
+    /* Media query para pantallas pequeñas */
+    @media screen and (max-width: 767px) {
+        /* Agrega los estilos para pantallas pequeñas aquí */
+        
+      }
+  
+      /* Media query para pantallas medianas */
+      @media screen and (min-width: 768px) and (max-width: 1023px) {
+        /* Agrega los estilos para pantallas medianas aquí */
+        
+      }
+  
+      /* Media query para pantallas grandes */
+      @media screen and (min-width: 1024px) {
+        /* Agrega los estilos para pantallas grandes aquí */
+        
+      }

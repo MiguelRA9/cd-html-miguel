@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+}
+
+#header-div {
+    background-image: url(comida.jpg);
+    background-size: auto;
+    padding: 50px;
+}
+
+#header-div h1, h2 {
+    background-color: rgb(179, 2, 2, 0.5);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+    width: 600px;
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(179, 2, 2);
+    padding: 10px;
+    margin: 0;
+}
+
+main {
+    margin: 0;
+    background-color: rgb(221, 206, 187);
+    color: black;
+    padding: 40px;
+}
+
+main h3 {
+    text-align: center;
+    color: rgb(179, 2, 2);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#description ul li span {
+    color: rgb(179, 2, 2);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#description ul li {
+    list-style-image: url(foodicon.png);
+    line-height: 30px;
+}
+
+#takeaway_container{
+    display: inline-block;
+    align-items: center;
+    margin-left: 50%;
+}
+
+#takeaway_container a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(179, 2, 2);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    background-color: rgb(179, 2, 2);
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Aplica los media queries a partir de aquí */
+
+    /* Media query para pantallas pequeñas */
+    @media screen and (max-width: 767px) {
+        /* Agrega los estilos para pantallas pequeñas aquí */
+        
+      }
+  
+      /* Media query para pantallas medianas */
+      @media screen and (min-width: 768px) and (max-width: 1023px) {
+        /* Agrega los estilos para pantallas medianas aquí */
+        
+      }
+  
+      /* Media query para pantallas grandes */
+      @media screen and (min-width: 1024px) {
+        /* Agrega los estilos para pantallas grandes aquí */
+        
+      }

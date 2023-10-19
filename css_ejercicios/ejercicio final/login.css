@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    background-image: url(background_login.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.login-container {
+    position: fixed;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 350px; 
+    border-radius: 5px;   
+    color: black;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-weight: bold;
+    width: 100%;
+}
+
+label, input {
+    width: 100%;
+    margin-bottom: 20px;
+    height: 30px;
+}
+
+button {
+    background-color: rgb(36, 35, 35);
+    color: white;
+    padding: 15px;
+    width: 200px;
+    border-radius: 2px;
+    border-style: none;
+}
+
+button:hover{
+    background-color: gray;
+}
+
+#register {
+    width: 100%;
+}
+
+#register a {
+    color: red;
+    text-decoration: none;
+}
+
+/* Aplica los media queries a partir de aquí */
+
+    /* Media query para pantallas pequeñas */
+    @media screen and (max-width: 767px) {
+        /* Agrega los estilos para pantallas pequeñas aquí */
+        body {
+            margin: 0;
+            background-image: url(background_login.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+      }
+  
+      /* Media query para pantallas medianas */
+      @media screen and (min-width: 768px) and (max-width: 1023px) {
+        /* Agrega los estilos para pantallas medianas aquí */
+        body {
+            margin: 0;
+            background-image: url(background_login.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+      }
+  
+      /* Media query para pantallas grandes */
+      @media screen and (min-width: 1024px) {
+        /* Agrega los estilos para pantallas grandes aquí */
+        body {
+            margin: 0;
+            background-image: url(background_login.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+      }
