@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    background-color: rgb(234, 233, 215);
+}
+
+#header-div {
+    background-image: url(comida.jpg);
+    background-size: auto;
+    padding: 50px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+#header-div h1, h2 {
+    background-color: rgb(135, 15, 15, 0.5);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 20px;
+    width: 600px;
+    text-align: center;
+}
+
+body h2 {
+    text-align: center;
+    color: rgb(135, 15, 15);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin: 1%;
+    border-radius: 5px;
+}
+
+section .promocion {
+    background-color: rgb(222 185 134);
+    display: inline-block;
+    text-align: center;
+    align-items: stretch;
+    align-content: center;
+    max-width: 350px;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.promocion img, h3, p {
+    width: 100%;
+}
+
+.promocion img{
+    max-width: 200px;
+    max-height: auto;
+}
+
+nav {
+    background-color: rgb(135, 15, 15);
+    padding: 10px;
+    margin: 0;
+}
+
+
+footer {
+    background-color: rgb(135, 15, 15);
+    color: white;
+    padding: 15px;
+    text-align: center;
+}

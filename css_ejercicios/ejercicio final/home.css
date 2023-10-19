@@ -9,36 +9,38 @@ body {
 }
 
 #header-div h1, h2 {
-    background-color: rgb(179, 2, 2, 0.5);
+    background-color: rgb(135, 15, 15, 0.5);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+    margin-left: 35%;
+    margin-right: 35%;
     padding: 20px;
     width: 600px;
     text-align: center;
 }
 
 nav {
-    background-color: rgb(179, 2, 2);
+    background-color: rgb(135, 15, 15);
     padding: 10px;
     margin: 0;
 }
 
 main {
     margin: 0;
-    background-color: rgb(221, 206, 187);
+    background-color: rgb(234, 233, 215);
     color: black;
     padding: 40px;
 }
 
 main h3 {
     text-align: center;
-    color: rgb(179, 2, 2);
+    color: rgb(135, 15, 15);
     font-family: Arial, Helvetica, sans-serif;
 }
 
 #description ul li span {
-    color: rgb(179, 2, 2);
+    color: rgb(135, 15, 15);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
@@ -57,12 +59,12 @@ main h3 {
 #takeaway_container a {
     text-decoration: none;
     font-weight: bold;
-    color: rgb(179, 2, 2);
+    color: rgb(135, 15, 15);
     font-family: Arial, Helvetica, sans-serif;
 }
 
 footer {
-    background-color: rgb(179, 2, 2);
+    background-color: rgb(135, 15, 15);
     color: white;
     padding: 15px;
     text-align: center;
@@ -73,13 +75,47 @@ footer {
     /* Media query para pantallas pequeñas */
     @media screen and (max-width: 767px) {
         /* Agrega los estilos para pantallas pequeñas aquí */
-        
+        #header-div {
+            background-image: url(header_peque.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding: 50px;
+        }
+
+        #header-div h1, h2 {
+            background-color: rgb(179, 2, 2, 0.5);
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            margin-left: 35%;
+            margin-right: 35%;
+            padding: 20px;
+            width: auto;
+            text-align: center;
+        }
       }
   
       /* Media query para pantallas medianas */
       @media screen and (min-width: 768px) and (max-width: 1023px) {
         /* Agrega los estilos para pantallas medianas aquí */
-        
+        #header-div {
+            background-image: url(header_media.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding: 50px;
+        }
+
+        #header-div h1, h2 {
+            background-color: rgb(179, 2, 2, 0.5);
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            margin-left: 35%;
+            margin-right: 35%;
+            padding: 20px;
+            width: auto;
+            text-align: center;
+        }
       }
   
       /* Media query para pantallas grandes */
