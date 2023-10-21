@@ -4,7 +4,7 @@ body {
 
 #header-div {
     background-image: url(comida.jpg);
-    background-size: auto;
+    background-size: 40%;
     padding: 50px;
 }
 
