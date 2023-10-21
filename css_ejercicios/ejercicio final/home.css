@@ -50,12 +50,11 @@ main h3 {
     line-height: 30px;
 }
 
-#takeaway_container{
-}
-
-#takeaway_container a img{
+#takeaway_container a{
     display: flex;
     justify-content: center;
+    text-align: center;
+    align-items: center;
     position: relative;
     top: 25px;
 
