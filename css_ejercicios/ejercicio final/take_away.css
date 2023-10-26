@@ -25,16 +25,20 @@ header a {
     text-align: center;
 }
 
-body h2 {
+#title_section{
     text-align: center;
     color: rgb(135, 15, 15);
+    background-color: rgb(234, 233, 215);
     font-family: Arial, Helvetica, sans-serif;
 }
 
 section {
     background-color: white;
     padding: 20px;
-    margin: 1%;
+    width: 1600px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
     border-radius: 5px;
 }
 
@@ -72,3 +76,23 @@ footer {
     padding: 15px;
     text-align: center;
 }
+
+/* Aplica los media queries a partir de aquí */
+
+    /* Media query para pantallas pequeñas */
+    @media screen and (max-width: 767px) {
+        /* Agrega los estilos para pantallas pequeñas aquí */
+        
+      }
+  
+      /* Media query para pantallas medianas */
+      @media screen and (min-width: 768px) and (max-width: 1023px) {
+        /* Agrega los estilos para pantallas medianas aquí */
+        
+      }
+  
+      /* Media query para pantallas grandes */
+      @media screen and (min-width: 1024px) {
+        /* Agrega los estilos para pantallas grandes aquí */
+        
+      }
